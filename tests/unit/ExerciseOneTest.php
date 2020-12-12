@@ -54,9 +54,9 @@ class ExerciseOneTest extends TestCase
         $str2 = '';
 
         $this->assertEquals(
-            '"La vida es bella" contiene ', 
+            '"La vida es bella" contiene ""', 
             $exerciseOne->solution($str1, $str2), 
-            'El resultado debe ser: "La vida es bella" contiene ');
+            'El resultado debe ser: "La vida es bella" contiene ""');
     }
 
     /**

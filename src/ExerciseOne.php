@@ -19,10 +19,24 @@ class ExerciseOne
      */
     public function solution($str1, $str2)
     {
-        if () {
+        $boolean = $this->verify($str1, $str2);
+        if ($boolean) {
 			return "\"" . $str1 . "\" contiene \"" . $str2 . "\"";
         } else {
 			return "\"" . $str1 . "\" no contiene \"" . $str2 . "\"";
+        }
+    }
+
+    private function verify($str1, $str2)
+    {
+        if (empty($str2)) {
+           return true;
+        } else {
+            if (strlen(strpos($str1, $str2)) > 0) {
+                return true;
+            } else {
+                return false;
+            }
         }
     }
 }

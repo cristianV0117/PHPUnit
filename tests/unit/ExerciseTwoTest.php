@@ -35,9 +35,9 @@ class ExerciseTwoTest extends TestCase
         $input = "abcde@jklm";
 
         $this->assertEquals(
-            "$input no es válido", 
+            "$input no es vÃ¡lido", 
             $exerciseTwo->solution($input), 
-            "El resultado debe ser: $input no es válido");
+            "El resultado debe ser: $input no es vÃ¡lido");
     }
 
     /**
@@ -51,9 +51,9 @@ class ExerciseTwoTest extends TestCase
         $input = "abcde@jklm@123.com";
 
         $this->assertEquals(
-            "$input no es válido", 
+            "$input no es vÃ¡lido", 
             $exerciseTwo->solution($input), 
-            "El resultado debe ser: $input no es válido");
+            "El resultado debe ser: $input no es vÃ¡lido");
     }
 
     /**
@@ -67,9 +67,9 @@ class ExerciseTwoTest extends TestCase
         $input = "@jklm@123.com";
 
         $this->assertEquals(
-            "$input no es válido", 
+            "$input no es vÃ¡lido", 
             $exerciseTwo->solution($input), 
-            "El resultado debe ser: $input no es válido");
+            "El resultado debe ser: $input no es vÃ¡lido");
     }
 
     /**
@@ -83,9 +83,9 @@ class ExerciseTwoTest extends TestCase
         $input = "jklm@123.co";
 
         $this->assertEquals(
-            "¡$input gracias por subscribirte!", 
+            "Â¡$input gracias por subscribirte!", 
             $exerciseTwo->solution($input), 
-            "El resultado debe ser: ¡$input gracias por subscribirte!");
+            "El resultado debe ser: Â¡$input gracias por subscribirte!");
     }
 }
 

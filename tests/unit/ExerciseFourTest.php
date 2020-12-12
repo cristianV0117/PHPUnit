@@ -2,15 +2,15 @@
 namespace tests\unit;
 
 require __DIR__ . "/../../src/ExerciseFour.php";
-/*require __DIR__ . "/../../src/ExerciseFourLevelOne.php";
+require __DIR__ . "/../../src/ExerciseFourLevelOne.php";
 require __DIR__ . "/../../src/ExerciseFourLevelTwo.php";
-require __DIR__ . "/../../src/ExerciseFourLevelThree.php";*/
+require __DIR__ . "/../../src/ExerciseFourLevelThree.php";
 
 use PHPUnit\Framework\InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-/*use src\ExerciseFourLevelOne;
+use src\ExerciseFourLevelOne;
+use src\ExerciseFourLevelTwo;
 use src\ExerciseFourLevelThree;
-use src\ExerciseFourLevelTwo;*/
 
 class ExerciseFourTest extends TestCase
 {
@@ -20,7 +20,7 @@ class ExerciseFourTest extends TestCase
      */
     function firstTest()
     {
-        /*$exerciseFourLevel1 = new ExerciseFourLevelOne();
+        $exerciseFourLevel1 = new ExerciseFourLevelOne();
         $exerciseFourLevel2 = new ExerciseFourLevelTwo();
         $exerciseFourLevel3 = new ExerciseFourLevelThree();
         
@@ -37,7 +37,7 @@ class ExerciseFourTest extends TestCase
         $this->assertEquals(
             150,
             $exerciseFourLevel3->pointCalculator(50),
-            "El resultado esperado es 150");*/
+            "El resultado esperado es 150");
     }
     
     /**
@@ -46,7 +46,7 @@ class ExerciseFourTest extends TestCase
      */
     function secondTest()
     {
-        /*$exerciseFourLevel1 = new ExerciseFourLevelOne();
+        $exerciseFourLevel1 = new ExerciseFourLevelOne();
         $exerciseFourLevel2 = new ExerciseFourLevelTwo();
         $exerciseFourLevel3 = new ExerciseFourLevelThree();
         
@@ -63,6 +63,6 @@ class ExerciseFourTest extends TestCase
         $this->assertEquals(
             0,
             $exerciseFourLevel3->pointCalculator(0),
-            "El resultado esperado es 0");*/
+            "El resultado esperado es 0");
     }
 }
