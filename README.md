@@ -1,5 +1,5 @@
-# Prueba técnica para BE
-## Cristian Camilo Vasquez Osorio - Optime Consulting
+# PHP UNIT
+## Cristian Camilo Vasquez Osorio
 
 Buen día!
 He realizado la prueba practica sobre PHP y aplicando pruebas unitarias con PHPUnit
@@ -8,6 +8,3 @@ He realizado la prueba practica sobre PHP y aplicando pruebas unitarias con PHPU
 Visual Studio Code
 Git Bash
 GitHub
-
-
-### *¡Gracias!*
